@@ -12,17 +12,18 @@
 -  **Robust / Надежность**: Error handling for invalid inputs (strings/symbols).
 -  **Smart Units / Умные замеры**: Auto-conversion for height (supports both 1.80m and 180cm).
 
-## Как запустить
+## Как запустить?
 
 ## [RU] Как запустить 
-1. Ensure you have [Go](https://golang.org/dl/) installed.
-2. Clone this repository.
-3. Run the application:
+1. Установите [Go](https://golang.org/dl/)
+2. Клонируйте репозиторий.
+3. Запустите программу прямо из терминала:
    ```bash
    go run Health.go
 
 ## [EN] How to run
-1. Установите [Go](https://golang.org/dl/)
-2. Запустите программу прямо из терминала:
+1. Ensure you have [Go](https://golang.org/dl/) installed.
+2. Clone this repository.
+3. Run the application:
    ```bash
    go run Health.go
