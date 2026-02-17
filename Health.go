@@ -41,7 +41,7 @@ func main() {
 			MaxNormalBMI = 24.9
 		)
 
-		// Условия
+		// Условия + вывод итогов
 		if bmi >= MinNormalBMI && bmi <= MaxNormalBMI {
 			fmt.Println("\033[32mТвоё тело в полном порядке.\033[0m ❘❘ \033[32mYour body is in perfect order.\033[0m")
 		} else if bmi >= MaxNormalBMI {
